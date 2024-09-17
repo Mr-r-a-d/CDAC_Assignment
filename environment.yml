@@ -11,4 +11,5 @@ dependencies:
   - biopython
   - setuptools
   - wheel
-  
+
+  #sudo apt install ncbi-blast+ prodigal clustalw
