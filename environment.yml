@@ -1,20 +1,14 @@
 name: gene_genome
 channels:
-- bioconda
-- conda-forge
+  - conda-forge
+  - defaults
 dependencies:
-- biopython=1.81=py310h2372a71_1
-- clustalo=1.2.4=hdbdd923_8
-- clustalw=2.1=h4ac6f70_10
-- ete3=3.1.3=pyhd8ed1ab_0
-- emboss=6.6.0=hfb8fa87_10
-- fasttree=2.1.11=h031d066_4
-- muscle=5.1=h4ac6f70_3
-- numpy=1.24.5=py310h587e1d6_0
-- opencv=4.7.0=py310h0d24b6c_0
-- pandas=2.1.0=py310h14c23e9_0
-- raxml=8.2.12=h0b41bf4_1
-- scipy=1.10.1=py310h58d69bb_0
-- tabulate=0.9.0=pyhd8ed1ab_0
-- xz=5.4.3=h7f98852_1
-- zstd=1.5.5=h805d4db_0
+  - python=3.10
+  - numpy
+  - pandas
+  - matplotlib
+  - opencv
+  - biopython
+  - setuptools
+  - wheel
+  
