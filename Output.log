@@ -1,0 +1,102 @@
+Script started on 2024-09-17 21:49:45+00:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="28"]
+[?2004h]0;~/CDAC
+[32menigma101@Rushi [33m~/CDAC[0m
+$ conda activate gene_genome
+[?2004l[?2004h(gene_genome) ]0;~/CDAC
+[32menigma101@Rushi [33m~/CDAC[0m
+$ python Temp.py 
+[?2004l/home/enigma101/micromamba/envs/gene_genome/lib/python3.10/site-packages/Bio/Application/__init__.py:39: BiopythonDeprecationWarning: The Bio.Application modules and modules relying on it have been deprecated.
+
+Due to the on going maintenance burden of keeping command line application
+wrappers up to date, we have decided to deprecate and eventually remove these
+modules.
+
+We instead now recommend building your command line and invoking it directly
+with the subprocess module.
+  warnings.warn(
+Gene names in FASTA files: ['tonB', 'rpoB', 'mdh', 'phoE', 'gapA', 'pgi', 'infB']
+BLAST completed for /home/enigma101/CDAC/genomes/KP_2343.fasta with query /home/enigma101/CDAC/Genes/tonB.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_2343.fasta with query /home/enigma101/CDAC/Genes/rpoB.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_2343.fasta with query /home/enigma101/CDAC/Genes/mdh.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_2343.fasta with query /home/enigma101/CDAC/Genes/phoE.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_2343.fasta with query /home/enigma101/CDAC/Genes/gapA.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_2343.fasta with query /home/enigma101/CDAC/Genes/pgi.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_2343.fasta with query /home/enigma101/CDAC/Genes/infB.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_1904.fasta with query /home/enigma101/CDAC/Genes/tonB.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_1904.fasta with query /home/enigma101/CDAC/Genes/rpoB.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_1904.fasta with query /home/enigma101/CDAC/Genes/mdh.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_1904.fasta with query /home/enigma101/CDAC/Genes/phoE.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_1904.fasta with query /home/enigma101/CDAC/Genes/gapA.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_1904.fasta with query /home/enigma101/CDAC/Genes/pgi.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_1904.fasta with query /home/enigma101/CDAC/Genes/infB.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_1899.fasta with query /home/enigma101/CDAC/Genes/tonB.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_1899.fasta with query /home/enigma101/CDAC/Genes/rpoB.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_1899.fasta with query /home/enigma101/CDAC/Genes/mdh.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_1899.fasta with query /home/enigma101/CDAC/Genes/phoE.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_1899.fasta with query /home/enigma101/CDAC/Genes/gapA.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_1899.fasta with query /home/enigma101/CDAC/Genes/pgi.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_1899.fasta with query /home/enigma101/CDAC/Genes/infB.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_2146.fasta with query /home/enigma101/CDAC/Genes/tonB.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_2146.fasta with query /home/enigma101/CDAC/Genes/rpoB.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_2146.fasta with query /home/enigma101/CDAC/Genes/mdh.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_2146.fasta with query /home/enigma101/CDAC/Genes/phoE.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_2146.fasta with query /home/enigma101/CDAC/Genes/gapA.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_2146.fasta with query /home/enigma101/CDAC/Genes/pgi.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_2146.fasta with query /home/enigma101/CDAC/Genes/infB.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_1705.fasta with query /home/enigma101/CDAC/Genes/tonB.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_1705.fasta with query /home/enigma101/CDAC/Genes/rpoB.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_1705.fasta with query /home/enigma101/CDAC/Genes/mdh.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_1705.fasta with query /home/enigma101/CDAC/Genes/phoE.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_1705.fasta with query /home/enigma101/CDAC/Genes/gapA.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_1705.fasta with query /home/enigma101/CDAC/Genes/pgi.fasta
+BLAST completed for /home/enigma101/CDAC/genomes/KP_1705.fasta with query /home/enigma101/CDAC/Genes/infB.fasta
+Extracted sequence for mdh from b4f658dd4c7849cb_1 in /home/enigma101/CDAC/genomes/KP_2343.fasta
+Extracted sequence for tonB from b4f658dd4c7849cb_1 in /home/enigma101/CDAC/genomes/KP_2343.fasta
+Extracted sequence for gapA from b4f658dd4c7849cb_1 in /home/enigma101/CDAC/genomes/KP_2343.fasta
+Extracted sequence for pgi from b4f658dd4c7849cb_1 in /home/enigma101/CDAC/genomes/KP_2343.fasta
+Extracted sequence for infB from b4f658dd4c7849cb_1 in /home/enigma101/CDAC/genomes/KP_2343.fasta
+Extracted sequence for phoE from b4f658dd4c7849cb_1 in /home/enigma101/CDAC/genomes/KP_2343.fasta
+Extracted sequence for mdh from d9e826a7b4244f35_1 in /home/enigma101/CDAC/genomes/KP_1904.fasta
+Extracted sequence for tonB from d9e826a7b4244f35_1 in /home/enigma101/CDAC/genomes/KP_1904.fasta
+Extracted sequence for pgi from d9e826a7b4244f35_1 in /home/enigma101/CDAC/genomes/KP_1904.fasta
+Extracted sequence for infB from d9e826a7b4244f35_1 in /home/enigma101/CDAC/genomes/KP_1904.fasta
+Extracted sequence for rpoB from d9e826a7b4244f35_1 in /home/enigma101/CDAC/genomes/KP_1904.fasta
+Extracted sequence for phoE from d9e826a7b4244f35_1 in /home/enigma101/CDAC/genomes/KP_1904.fasta
+Extracted sequence for mdh from 4d71e66ea68649ad_1 in /home/enigma101/CDAC/genomes/KP_1899.fasta
+Extracted sequence for tonB from 4d71e66ea68649ad_1 in /home/enigma101/CDAC/genomes/KP_1899.fasta
+Extracted sequence for gapA from 4d71e66ea68649ad_1 in /home/enigma101/CDAC/genomes/KP_1899.fasta
+Extracted sequence for pgi from 4d71e66ea68649ad_1 in /home/enigma101/CDAC/genomes/KP_1899.fasta
+Extracted sequence for infB from 4d71e66ea68649ad_1 in /home/enigma101/CDAC/genomes/KP_1899.fasta
+Extracted sequence for rpoB from 4d71e66ea68649ad_1 in /home/enigma101/CDAC/genomes/KP_1899.fasta
+Extracted sequence for phoE from 4d71e66ea68649ad_1 in /home/enigma101/CDAC/genomes/KP_1899.fasta
+Extracted sequence for tonB from 7814e1a2326b4aba_1 in /home/enigma101/CDAC/genomes/KP_2146.fasta
+Extracted sequence for gapA from 7814e1a2326b4aba_1 in /home/enigma101/CDAC/genomes/KP_2146.fasta
+Extracted sequence for infB from 7814e1a2326b4aba_1 in /home/enigma101/CDAC/genomes/KP_2146.fasta
+Extracted sequence for phoE from 7814e1a2326b4aba_1 in /home/enigma101/CDAC/genomes/KP_2146.fasta
+Extracted sequence for mdh from f527670a9ccc44ca_1 in /home/enigma101/CDAC/genomes/KP_1705.fasta
+Extracted sequence for tonB from f527670a9ccc44ca_1 in /home/enigma101/CDAC/genomes/KP_1705.fasta
+Extracted sequence for gapA from f527670a9ccc44ca_1 in /home/enigma101/CDAC/genomes/KP_1705.fasta
+Extracted sequence for pgi from f527670a9ccc44ca_1 in /home/enigma101/CDAC/genomes/KP_1705.fasta
+Extracted sequence for infB from f527670a9ccc44ca_1 in /home/enigma101/CDAC/genomes/KP_1705.fasta
+Extracted sequence for rpoB from f527670a9ccc44ca_1 in /home/enigma101/CDAC/genomes/KP_1705.fasta
+Extracted sequence for phoE from f527670a9ccc44ca_1 in /home/enigma101/CDAC/genomes/KP_1705.fasta
+Homologous regions extraction completed.
+Prodigal CDS extraction completed for /home/enigma101/CDAC/genomes/KP_2343.fasta
+Prodigal CDS extraction completed for /home/enigma101/CDAC/genomes/KP_1904.fasta
+Prodigal CDS extraction completed for /home/enigma101/CDAC/genomes/KP_1899.fasta
+Prodigal CDS extraction completed for /home/enigma101/CDAC/genomes/KP_2146.fasta
+Prodigal CDS extraction completed for /home/enigma101/CDAC/genomes/KP_1705.fasta
+Alignment completed for gapA
+Alignment completed for infB
+Alignment completed for mdh
+Alignment completed for pgi
+Alignment completed for phoE
+Alignment completed for rpoB
+Alignment completed for tonB
+Alignment completed.
+[?2004h(gene_genome) ]0;~/CDAC
+[32menigma101@Rushi [33m~/CDAC[0m
+$ [?2004l
+exit
+
+Script done on 2024-09-17 21:51:12+00:00 [COMMAND_EXIT_CODE="0"]
