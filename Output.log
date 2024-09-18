@@ -1,11 +1,17 @@
 Script started on 2024-09-17 21:49:45+00:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="28"]
-[?2004h]0;~/CDAC
-[32menigma101@Rushi [33m~/CDAC[0m
+[?2004h]0;~/CDAC
+
+[32menigma101@Rushi [33m~/CDAC[0m
+
 $ conda activate gene_genome
-[?2004l[?2004h(gene_genome) ]0;~/CDAC
-[32menigma101@Rushi [33m~/CDAC[0m
+[?2004l
+[?2004h(gene_genome) ]0;~/CDAC
+
+[32menigma101@Rushi [33m~/CDAC[0m
+
 $ python Temp.py 
-[?2004l/home/enigma101/micromamba/envs/gene_genome/lib/python3.10/site-packages/Bio/Application/__init__.py:39: BiopythonDeprecationWarning: The Bio.Application modules and modules relying on it have been deprecated.
+[?2004l
+/home/enigma101/micromamba/envs/gene_genome/lib/python3.10/site-packages/Bio/Application/__init__.py:39: BiopythonDeprecationWarning: The Bio.Application modules and modules relying on it have been deprecated.
 
 Due to the on going maintenance burden of keeping command line application
 wrappers up to date, we have decided to deprecate and eventually remove these
@@ -94,9 +100,22 @@ Alignment completed for phoE
 Alignment completed for rpoB
 Alignment completed for tonB
 Alignment completed.
-[?2004h(gene_genome) ]0;~/CDAC
-[32menigma101@Rushi [33m~/CDAC[0m
-$ [?2004l
+[?2004h(gene_genome) ]0;~/CDAC
+
+[32menigma101@Rushi [33m~/CDAC[0m
+
+$ [?2004l
+
+$ python CDS.py
+    Genome  Number of Conserved Sequences
+0  KP_1705                           2146
+1  KP_1899                           2141
+2  KP_1904                           2146
+3  KP_2146                           2136
+4  KP_2343                           2141
+
+Total number of conserved genes (not in excluded list) occurring once across all genomes: 10710
+
 exit
 
 Script done on 2024-09-17 21:51:12+00:00 [COMMAND_EXIT_CODE="0"]
